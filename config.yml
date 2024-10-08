@@ -1,0 +1,12 @@
+# Supported Castlevania 64 Versions: US (1.0)
+
+c176c2493d90e12d0a2b6873cfcbc611a9bea245:
+  name: Castlevania (USA) (1.0)
+  path: assets
+  config:
+    gbi: F3DEX2
+    sort: OFFSET
+    output:
+      code: src/assets
+      headers: include/assets
+      modding: src/assets

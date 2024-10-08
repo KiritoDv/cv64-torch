@@ -1,0 +1,57 @@
+:config:
+  segments:
+    - [0x06, 0x00BD8EC0]
+
+test_grid_txt:
+  { type: TEXTURE, ctype: u8, format: CI4, width: 64, height: 64, offset: 0x06000000, symbol: test_grid_txt, tlut: 0x06000800 }
+
+test_grid_tlut:
+  { type: TEXTURE, ctype: u16, format: TLUT, colors: 0x10, offset: 0x06000800, symbol: test_grid_tlut }
+
+test_grid_vtx:
+  { type: VTX, count: 0xA0, offset: 0x06000820, symbol: test_grid_vtx }
+
+test_grid_1:
+  { type: GFX, offset: 0x06000FA0, symbol: test_grid_1 }
+
+test_grid_2:
+  { type: GFX, offset: 0x060010D8, symbol: test_grid_2 }
+
+test_grid_3:
+  { type: GFX, offset: 0x060011F0, symbol: test_grid_3 }
+
+test_grid_4:
+  { type: GFX, offset: 0x06001308, symbol: test_grid_4 }
+
+test_grid_5:
+  { type: GFX, offset: 0x060013E0, symbol: test_grid_5 }
+
+test_grid_6:
+  { type: GFX, offset: 0x060014F8, symbol: test_grid_6 }
+
+test_grid_7:
+  { type: GFX, offset: 0x060015F0, symbol: test_grid_7 }
+
+test_grid_8:
+  { type: GFX, offset: 0x060016E8, symbol: test_grid_8 }
+
+test_grid_9:
+  { type: GFX, offset: 0x060017C0, symbol: test_grid_9 }
+
+test_grid_10:
+  { type: GFX, offset: 0x060018D8, symbol: test_grid_10 }
+
+test_grid_11:
+  { type: GFX, offset: 0x060019D0, symbol: test_grid_11 }
+
+test_grid_12:
+  { type: GFX, offset: 0x06001AC8, symbol: test_grid_12 }
+
+test_grid_13:
+  { type: GFX, offset: 0x06001BA0, symbol: test_grid_13 }
+
+test_grid_14:
+  { type: GFX, offset: 0x06001C78, symbol: test_grid_14 }
+
+test_grid_15:
+  { type: GFX, offset: 0x06001D50, symbol: test_grid_14 }

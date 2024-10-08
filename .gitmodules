@@ -1,0 +1,3 @@
+[submodule "Torch"]
+	path = Torch
+	url = https://github.com/HarbourMasters/Torch
